@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ddb85ec.chunk.css",
+    "main.js": "/static/js/main.cf5be598.chunk.js",
+    "main.js.map": "/static/js/main.cf5be598.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
+    "static/css/2.679831fc.chunk.css": "/static/css/2.679831fc.chunk.css",
+    "static/js/2.e5b8899d.chunk.js": "/static/js/2.e5b8899d.chunk.js",
+    "static/js/2.e5b8899d.chunk.js.map": "/static/js/2.e5b8899d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.7ddb85ec.chunk.css.map": "/static/css/main.7ddb85ec.chunk.css.map",
+    "static/js/2.e5b8899d.chunk.js.LICENSE.txt": "/static/js/2.e5b8899d.chunk.js.LICENSE.txt",
+    "static/media/PDP.4da33e4e.jpg": "/static/media/PDP.4da33e4e.jpg",
+    "static/media/laptopbg.41d84077.jpg": "/static/media/laptopbg.41d84077.jpg",
+    "static/media/netflix.2f29c967.jpg": "/static/media/netflix.2f29c967.jpg",
+    "static/media/home.css": "/static/media/skillsbg.74f7ff06.jpg",
+    "static/media/yelpcamp.a1c14767.jpg": "/static/media/yelpcamp.a1c14767.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06b5035f.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.e5b8899d.chunk.js",
+    "static/css/main.7ddb85ec.chunk.css",
+    "static/js/main.cf5be598.chunk.js"
+  ]
+}
