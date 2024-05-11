@@ -43,10 +43,17 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="navbar-heading">
-                    <h2 className="navbar-title">
-                        Mihir <br />
-                        Thakur
-                    </h2>
+                    <div className="navbar-title">
+                        <img
+                            className={
+                                isScrolled
+                                    ? "navbar-logo-scrolled"
+                                    : "navbar-logo"
+                            }
+                            src="MT Logo.png"
+                            alt="Mihir Thakur"
+                        />
+                    </div>
                 </div>
                 <div
                     className={
