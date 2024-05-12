@@ -1,8 +1,6 @@
 import ProjectCard from "../../components/project-card/projectCard";
 import "./projects.css";
-import netflixImg from "../../assets/projects/netflix.jpg";
-import yelpcampImg from "../../assets/projects/yelpcamp.jpg";
-import pdpImg from "../../assets/projects/PDP.jpg";
+import preojectData from "../../assets/data/projectData.json";
 
 export default function Projects() {
     return (
@@ -11,22 +9,21 @@ export default function Projects() {
                 <h1>PROJECTS</h1>
             </div>
             <div className="project-container">
-                <ProjectCard
-                    image={netflixImg}
-                    title="Netflix Clone"
-                    link="https://github.com/Mik-27/Netflix-Clone"
-                />
-                <ProjectCard
-                    image={yelpcampImg}
-                    title="YelpCamp"
-                    link="https://github.com/Mik-27/Yelp_Camp"
-                />
-                <ProjectCard
-                    image={pdpImg}
-                    title="Plant Disease Prediction"
-                    link=""
-                />
-                {/* <ProjectCard /> */}
+                {preojectData.projects.map((obj) => {
+                    console.log(typeof obj.image);
+                    return (
+                        <ProjectCard
+                            image={require("../../assets/projects/" +
+                                obj.image)}
+                            title={obj.title}
+                            link={obj.link}
+                            onGithub={obj.onGithub}
+                            desc={obj.desc}
+                            key={obj.projectId}
+                            projectId={obj.projectId}
+                        />
+                    );
+                })}
             </div>
         </div>
     );

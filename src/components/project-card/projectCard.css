@@ -40,6 +40,9 @@
   }
 
 .project-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #3aafa9;
     transition: 1s visibility ease-in;
     /* text-align: center; */

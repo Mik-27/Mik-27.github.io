@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "projectId": 1,
+            "title": "Netflix Clone",
+            "onGithub": true,
+            "link": "https://github.com/Mik-27/Netflix-Clone",
+            "image": "netflix.jpg",
+            "desc": "Clone application of Netflix using React. Contains movies and user logins using various react components and testing for each component."
+        },
+        {
+            "projectId": 2,
+            "title": "YelpCamp",
+            "onGithub": true,
+            "link": "https://github.com/Mik-27/Yelp_Camp",
+            "image": "yelpcamp.jpg",
+            "desc": "Web application developed with Node JS, Bootstrap and HTML/CSS for browsing campgrounds and leave comments. Developed user login functionality and authentication for urls. Used MongoDB as storage to store users, user comments and campgrounds."
+        },
+        {
+            "projectId": 3,
+            "title": "Plant Disease Prediction",
+            "onGithub": false,
+            "link": "",
+            "image": "PDP.jpg",
+            "desc": "Predicting plant diseases and anamolies based on images of leaves. Generating prediction for the type of diseases using Convolutional Neural Network. Performed data augmentations to build robust model and facilitate accurate predictions."
+        },
+        {
+            "projectId": 4,
+            "title": "Traffic Management System",
+            "onGithub": false,
+            "link": "",
+            "image": "netflix.jpg",
+            "desc": "System to manage Traffic efficiently using Machine Learning and signaling algorithm. Used YOLOv3 model to detect vehicles crossing a node. Count number of vehicles to estimate traffic at each node and use this information for changing the signals and their duration. Developed algorithm to change signals based on traffic at each intersection. Developed as part of  a 2-day Hackathon."
+        },
+        {
+            "projectId": 5,
+            "title": "Remote Patient Monitoring",
+            "onGithub": false,
+            "link": "",
+            "image": "netflix.jpg",
+            "desc": "Patient Montoring with the help of IoT and Cloud to efficiently keep track of patient conditions. Used sensors and microcontroller to gather vitals' information of patient and store it in the cloud. Use this information to perform analytics and predict lung disease from ECG. User can access this information through web portal via login. Efficint tracking of patient condition during COVID times."
+        },
+        {
+            "projectId": 6,
+            "title": "Language and Robotics",
+            "onGithub": false,
+            "link": "",
+            "image": "netflix.jpg",
+            "desc": "Predict next action for a robot given previous actions and image features as well as summarize robot actions. Use natural language along with image features using CLIP transformer model to generate next instructions. Used GPT2 model to generate summarization of robot actions."
+        },
+        {
+            "projectId": 7,
+            "title": "Benchmarking and Fairness Estimation on Biomedical Imagery",
+            "onGithub": false,
+            "link": "",
+            "image": "netflix.jpg",
+            "desc": "Comparative study between state-of-the-art Vision transformer algorithms and self supervised algorithm. Used ViT, Swin V1, ConvNeXt along with REMEDIS self-supervised algorithm for chest X-ray classification. Performed OOD detection using dataset from China(shenzhen) and gender bias analysisi between all the mentioned algorithms."
+        }
+    ]
+}
