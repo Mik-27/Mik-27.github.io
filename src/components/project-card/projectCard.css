@@ -94,13 +94,6 @@
     transform: scaleX(1);
 }
 
-.project-card:hover .project-heading{
-    display: block;
-    /* visibility: visible; */
-    opacity: 1;
-    /* transition: 1s all ease-in; */
-}
-
 /* .project-card:hover .project-img{
     opacity: 0.15;
 } */
