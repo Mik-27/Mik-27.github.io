@@ -52,23 +52,19 @@ export default function Home() {
                         // }
                         className="image-container"
                     >
-                        <div className="image"></div>
-                        {/* <p className="photo-credits">
-							Photo by{" "}
-							<a href="https://unsplash.com/@surface?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-								Surface
-							</a>{" "}
-							on{" "}
-							<a href="https://unsplash.com/s/photos/computer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-								Unsplash
-							</a>
-						</p> */}
+                        <div className="image">
+                            {/* <img
+                                src="../assets/selfpic.JPG"
+                                alt="Profile Pic"
+                            /> */}
+                            <div className="overlay"></div>
+                        </div>
                     </div>
                     <div
                         // className={slide ? "intro" : "slide-left intro"}
                         className="intro"
                     >
-                        <h1>About Me</h1>
+                        <h1>ABOUT ME</h1>
                         <p>
                             I'm highly motivated and enthusiastic student,
                             currently pursuing my Masters of Science in Computer
@@ -89,7 +85,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section id="skills" className="skill-container">
+            {/* <section id="skills" className="skill-container">
                 <Skills />
                 <div className="skill-img-credits">
                     <p>
@@ -103,7 +99,7 @@ export default function Home() {
                         </a>
                     </p>
                 </div>
-            </section>
+            </section> */}
             <section id="projects" className="projects-container">
                 <Projects />
             </section>

@@ -108,12 +108,11 @@
 }
 
 .image {
+    position: relative;
     height: 500px;
     width: 375px;
-    border: 15px solid white;
-    /* border-bottom: 50px solid white; */
+    /* border: 15px solid white; */
     border-radius: 5px;
-    /* border-radius: 50%; */
     /* box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3); */
     background-image: url('../assets/selfpic.JPG');
     background-size: cover;
@@ -121,16 +120,18 @@
     /* transform: rotate(358deg); */
     transition: 0.7s ease-out;
 }
-/* 
+
 .image::before {
     content: "";
     position: absolute;
-    top: -10px; 
-    left: -10px;
-    right: -10px; 
-    bottom: -10px; 
-    border: 10px solid #00bfff; 
-  } */
+    top: 30px;
+    left: 30px;
+    right: -30px;
+    bottom: -30px;
+    border-radius: 5px;
+    border: 10px solid #3aafa9;
+    z-index: -1;
+  }
 
 .image-container.slide-right {
     opacity: 0;
@@ -166,17 +167,17 @@
 }
 
 .intro h1 {
-    color: #2b7a78;
+    color: #3aafa9;
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
 }
 
 .intro p{
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
-    color: #17252a;
+    color: #def2f1;
     text-align: justify;
 }
 
@@ -216,7 +217,7 @@
 
 .skill-container {
     background-color: #17252a;
-    background-image: url("../assets/skillsbg.jpg");
+    /* background-image: url("../assets/skillsbg.jpg"); */
     background-size: cover;
     background-attachment: fixed;
 }

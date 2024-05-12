@@ -5,8 +5,8 @@
     font-family: 'Roboto', sans-serif;
     margin-top: 70px;
     margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 140px;
+    margin-right: 150px;
 }
 
 .project-top {
@@ -21,7 +21,7 @@
 .project-container {
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap; 
     justify-content: space-evenly;
 }
