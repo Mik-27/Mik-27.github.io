@@ -217,7 +217,7 @@
 
 .skill-container {
     background-color: #17252a;
-    /* background-image: url("../assets/skillsbg.jpg"); */
+    background-image: url("../assets/skillsbg.jpg");
     background-size: cover;
     background-attachment: fixed;
 }

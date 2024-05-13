@@ -85,7 +85,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            {/* <section id="skills" className="skill-container">
+            <section id="skills" className="skill-container">
                 <Skills />
                 <div className="skill-img-credits">
                     <p>
@@ -99,7 +99,7 @@ export default function Home() {
                         </a>
                     </p>
                 </div>
-            </section> */}
+            </section>
             <section id="projects" className="projects-container">
                 <Projects />
             </section>

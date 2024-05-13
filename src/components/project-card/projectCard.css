@@ -50,9 +50,10 @@
     width: 40%;
 }
 
-.project-heading p {
+.project-desc p {
     margin-bottom: 30px;
     color: #def2f1;
+    text-align: justify;
 
 }
 
