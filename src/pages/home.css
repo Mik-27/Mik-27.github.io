@@ -111,13 +111,11 @@
     position: relative;
     height: 500px;
     width: 375px;
-    /* border: 15px solid white; */
     border-radius: 5px;
-    /* box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3); */
-    background-image: url('../assets/selfpic.JPG');
+    background-image: url('../assets/profilePic.JPG');
     background-size: cover;
     background-repeat: no-repeat;
-    /* transform: rotate(358deg); */
+    background-position: center center;
     transition: 0.7s ease-out;
 }
 
