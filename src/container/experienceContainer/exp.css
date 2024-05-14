@@ -10,18 +10,18 @@
 }
 
 .exp-title {
-    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-bottom: 70px;
     margin-top: 30px;
-    color: #17252a;
+    color: #def2f1;
     font-size: 1.8em;
 }
 
 .exp-container{
     margin-top: 60px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap; 
     justify-content: space-evenly;
 }

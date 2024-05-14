@@ -1,0 +1,34 @@
+{
+    "exp": [
+        {
+            "company": "LTIMindtree",
+            "logo": "LTIMindtree.jpg",
+            "startDate": "June, 2022",
+            "endDate": "July, 2023",
+            "jobTitle": "Data Scientist",
+            "location": "Pune, India",
+            "desc": "Implemented data science use cases for one of the top private banks in India, leveraging data-driven insights to drive business decisions. Performed data wrangling and exploratory data analysis on large datasets comprising 100M records from multiple datasets, and trained tree-based machine learning models to predict commercial vehicle sales. Presented two use-case POCs to stakeholders. Built end-to-end machine learning pipeline in Databricks, facilitating scheduled batch predictions. Redesigned approach for predicting delinquent customers to achieve accuracy of 89%.",
+            "website": "https://www.ltimindtree.com/"
+        },
+        {
+            "company": "Innovatiive Creators",
+            "logo": "InnovatiiveCreators.jpg",
+            "startDate": "Sept, 2021",
+            "endDate": "Nov, 2021",
+            "jobTitle": "Software Developer Intern",
+            "location": "Remote",
+            "desc": "Designed and developed 3 mobile applications using Flutter. Implemented authentication and storage using Firebase NoSQL database. Deployed applications using Firebase and carried initial testing with 500 testers.",
+            "website": "https://innovatiivecreators.in/"
+        },
+        {
+            "company": "Fiduciary Capital",
+            "logo": "FiduciaryCap.png",
+            "startDate": "June, 2021",
+            "endDate": "July, 2021",
+            "jobTitle": "Web Developer Intern",
+            "location": "Remote",
+            "desc": "Led developement of web application for financial startup and implemented database using MongoDB. Deployed application using Firebase under purchased domain name. Mentored new interns about the project and database implementation.",
+            "website": "https://fiduciarycapital.in/"
+        }
+    ]
+}

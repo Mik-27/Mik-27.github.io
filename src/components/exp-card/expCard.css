@@ -1,18 +1,83 @@
 .exp-card {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, rgb(10, 83, 78), rgba(10, 83, 78, 0));
+    border-radius: 30px;
+    color: #f9faff;
+    margin: 50px 0;
+    margin-left: 50px;
+    cursor: default;
+    padding-bottom: 20px;
+}
+
+.exp-image{
+    display: flex;
+    align-items: center;
+}
+
+.exp-image img{
+    height: auto;
+    width: 300px;
+    object-fit:contain;
+    border-radius: 5px;
 }
 
 .card-contents {
-    margin-top: 2.5em;
     font-size: 1.3em;
+    width: 500px;
 }
 
-.card-contents > .duration {
+.card-contents > h2 {
+    color: #3aafa9;
+}
+
+.website-container {
+    display: flex;
+    font-size: 0.8em;
+    margin-left: 15px;
+}
+
+.website-container > a {
+    display: block;
+    color: #f9faff;
+    width:fit-content;
+    margin-left: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+
+.website-container > a:hover {
+    /* transform: scale(1.05); */
+    font-weight: 500;
+    color: #f0f0f0;
+}
+
+.website-container > a::after {
+    margin-top: 5px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #def2f1;
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.website-container > a:hover::after {
+    transform: scaleX(1);
+}
+
+/* .card-contents > ul {
+    text-align: justify;
+} */
+
+/* .card-contents > .duration {
     font-size: 1.1em;
 }
 
 .card-contents > .designation {
-    color: rgb(31, 160, 211);
+    color: #3aafa9;
 }
 
 ul.details {
@@ -35,4 +100,4 @@ ul.details > li > a {
 ul.details > li > a:hover {
     border-bottom: 1.5px solid rgba(0, 0, 0, 0.356);
     color: rgba(0, 0, 0, 0.637);
-}
+} */

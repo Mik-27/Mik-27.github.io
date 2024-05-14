@@ -10,7 +10,6 @@ export default function Projects() {
             </div>
             <div className="project-container">
                 {preojectData.projects.map((obj) => {
-                    console.log(typeof obj.image);
                     return (
                         <ProjectCard
                             image={require("../../assets/projects/" +
