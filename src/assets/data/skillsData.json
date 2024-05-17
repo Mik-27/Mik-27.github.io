@@ -1,0 +1,43 @@
+{
+    "Languages": [
+        { "skill": "Python", "logo": "python.png" },
+        { "skill": "JavaScript", "logo": "javascript.png" },
+        { "skill": "SQL", "logo": "sql.png" },
+        { "skill": "Java", "logo": "java.png" }
+    ],
+    "Web Development": [
+        { "skill": "NodeJS", "logo": "node.png" },
+        { "skill": "ReactJS", "logo": "react.png" },
+        { "skill": "HTML", "logo": "html5.png" },
+        { "skill": "CSS", "logo": "css3.png" },
+        { "skill": "D3.js", "logo": "d3.png" }
+    ],
+    "Database": [
+        { "skill": "MySQL", "logo": "mysql.png" },
+        { "skill": "VerticaDB", "logo": "vertica.png" },
+        { "skill": "MongoDB", "logo": "mongodb.png" },
+        { "skill": "Firebase", "logo": "firebase.png" }
+    ],
+    "Data Analysis": [
+        { "skill": "Pandas", "logo": "pandas.png" },
+        { "skill": "NumPy", "logo": "numpy.png" },
+        { "skill": "Matplotlib", "logo": "matplotlib.png" },
+        { "skill": "Seaborn", "logo": "seaborn.png" },
+        { "skill": "Plotly", "logo": "plotly.png" },
+        { "skill": "PowerBI", "logo": "powerbi.png" }
+    ],
+    "Machine Learning": [
+        { "skill": "Scikit Learn", "logo": "sklearn.png" },
+        { "skill": "Pytorch", "logo": "pytorch.png" },
+        { "skill": "Spark", "logo": "spark.png" },
+        { "skill": "MlFLow", "logo": "mlflow.png" },
+        { "skill": "XGBoost", "logo": "xgboost.png" }
+    ],
+    "Tools": [
+        { "skill": "MS Azure", "logo": "azure.png" },
+        { "skill": "Databricks", "logo": "databricks.png" },
+        { "skill": "Git", "logo": "git.png" },
+        { "skill": "Github", "logo": "github.png" },
+        { "skill": "Linux", "logo": "linux.png" }
+    ]
+}
