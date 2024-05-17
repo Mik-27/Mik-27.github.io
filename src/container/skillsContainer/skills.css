@@ -36,9 +36,26 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.skills-category {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-category > h2 {
+    color: #f5ffff;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    padding-left: 17px;
+}
+
+.skills-category-info {
+    display: flex;
+    flex-direction: row;
 }
 
 .skill {
@@ -60,7 +77,7 @@
     margin: 0 auto;
 }
 
-.fa-react {
+/* .fa-react {
     color: #61dbfb;
 }
 
@@ -90,4 +107,4 @@
 
 .fa-database {
     color: #00758f;
-}
+} */
