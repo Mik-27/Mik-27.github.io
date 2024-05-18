@@ -8,7 +8,6 @@ export default function Navbar() {
 
     const handleScroll = () => {
         if (window.scrollY > 600) {
-            // console.log("Scrolled", window.scrollY);
             setIsScrolled(true);
             document.querySelector(".navbar").classList.add("scrolled");
             document.querySelector(".navbar-title").style.fontSize = "1.5em";
