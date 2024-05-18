@@ -9,7 +9,6 @@ export default function SkillCard({ logo, skill }) {
                 </div>
             ) : null}
             <div className="card-title">{skill}</div>
-            {/* <div className="card-description">{description}</div> */}
         </div>
     );
 }
