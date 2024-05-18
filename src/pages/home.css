@@ -173,6 +173,29 @@
     text-align: justify;
 }
 
+.intro > .resumeButton {
+    background-color: #3aafa9;
+    display: flex;
+    width: 180px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #17252a;
+    padding: 0 auto;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px 2px rgba(28, 102, 100, .2);
+    transition: background-color 250ms ease-in;
+    transition: color 200ms ease-in;
+}
+
+.resumeButton:hover {
+    background-color: #1c6664;
+    color: #def2f1;
+}
+
 .intro.slide-left {
     opacity: 0;
     position: relative;

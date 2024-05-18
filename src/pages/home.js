@@ -4,6 +4,7 @@ import Projects from "../container/projectsContainer/projects";
 import Experience from "../container/experienceContainer/exp";
 import "./home.css";
 import bgImg from "../assets/laptopbg.jpg";
+import resume from "../assets/Resume.pdf";
 
 export default function Home() {
     // const [slide, setSlide] = useState(false);
@@ -82,6 +83,14 @@ export default function Home() {
                             also like exploring technologies to augment my
                             knowledge and build innovative projects.
                         </p>
+                        <a
+                            href={resume}
+                            rel="noreferrer"
+                            target="_blank"
+                            className="resumeButton"
+                        >
+                            Resume
+                        </a>
                     </div>
                 </div>
             </section>
