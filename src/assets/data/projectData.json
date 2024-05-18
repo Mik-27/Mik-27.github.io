@@ -61,7 +61,7 @@
             "title": "American Sign Language Detection",
             "onGithub": false,
             "link": "",
-            "image": "chest.jpg",
+            "image": "asl.png",
             "desc": "Sign language is the primary mode of communication for deaf people and and people with hearing disabilities. Common people are not aware of the sign language and its interpretation to spoken language like English. To tackle this shortcoming, we developed ASL Detection for letters as well as words using images and videos using YOLOv5 and I3D respectively."
         }
     ]
