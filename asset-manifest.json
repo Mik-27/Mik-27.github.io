@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a4f8142c.css",
-    "main.js": "/static/js/main.71cba38b.js",
+    "main.js": "/static/js/main.bd4a5762.js",
     "static/media/yelpcamp.jpg": "/static/media/yelpcamp.a1c147670444996528b8.jpg",
     "static/media/rpm.jpg": "/static/media/rpm.aeeb91f82d1ee02a8e1d.jpg",
     "static/media/skillsbg.jpg": "/static/media/skillsbg.74f7ff06458eda1b5269.jpg",
@@ -12,11 +12,14 @@
     "static/media/profilePic.JPG": "/static/media/profilePic.f32fa518901d66bce438.JPG",
     "static/media/linux.png": "/static/media/linux.799257f3d947746a9ff8.png",
     "static/media/laptopbg.jpg": "/static/media/laptopbg.41d84077baf30bc52332.jpg",
+    "static/media/rag.png": "/static/media/rag.cec4097d32f364d2f7aa.png",
     "static/media/asl.png": "/static/media/asl.dc5bf7eacfe5e16e4dc3.png",
     "static/media/traffic.jpg": "/static/media/traffic.8035535640385852a522.jpg",
+    "static/media/sales.jpg": "/static/media/sales.8aeef3de4c8e70ff81f6.jpg",
     "static/media/FiduciaryCap.png": "/static/media/FiduciaryCap.cda4b6ad659d33b9d3fb.png",
     "static/media/sql.png": "/static/media/sql.85fb38d6773862e917f4.png",
     "static/media/sklearn.png": "/static/media/sklearn.bfb987221ae5f83d782b.png",
+    "static/media/animal.jpg": "/static/media/animal.c51352accacbea696a17.jpg",
     "static/media/vertica.png": "/static/media/vertica.2afcf08aad19cca1bbb1.png",
     "static/media/azure.png": "/static/media/azure.74fd3c74f03fde6a94af.png",
     "static/media/Resume.pdf": "/static/media/Resume.e9b5a7a93a139a13dbc4.pdf",
@@ -40,12 +43,13 @@
     "static/media/matplotlib.png": "/static/media/matplotlib.fecb899a6034ff72b308.png",
     "static/media/github.png": "/static/media/github.c8007a9fb185cb152ee6.png",
     "static/media/java.png": "/static/media/java.6c64373d3b7415758078.png",
+    "static/media/gemini.jpg": "/static/media/gemini.8d44fd3a769c08bdfc2d.jpg",
     "index.html": "/index.html",
     "main.a4f8142c.css.map": "/static/css/main.a4f8142c.css.map",
-    "main.71cba38b.js.map": "/static/js/main.71cba38b.js.map"
+    "main.bd4a5762.js.map": "/static/js/main.bd4a5762.js.map"
   },
   "entrypoints": [
     "static/css/main.a4f8142c.css",
-    "static/js/main.71cba38b.js"
+    "static/js/main.bd4a5762.js"
   ]
 }
