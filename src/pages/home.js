@@ -1,4 +1,4 @@
-// import { useState, useEffect } from "react";
+import Typewriter from "typewriter-effect";
 import Skills from "../container/skillsContainer/skills";
 import Projects from "../container/projectsContainer/projects";
 import Experience from "../container/experienceContainer/exp";
@@ -38,10 +38,25 @@ export default function Home() {
                             </span>
                             <br></br>
                         </h1>
-                        <h2 className="text-second">
+                        <Typewriter
+                            id="text-second"
+                            options={{
+                                strings: [
+                                    "I articulate data science solutions.",
+                                    "I build LLM Agents.",
+                                    "I orchestrate microservices delpoyment.",
+                                    "I build LLM application.",
+                                    "I develop software applications.",
+                                ],
+                                autoStart: true,
+                                loop: true,
+                                delay: 50,
+                            }}
+                        />
+                        {/* <h2 className="text-second">
                             I'm a graduate student <br></br> interested in Data
                             Science.
-                        </h2>
+                        </h2> */}
                     </div>
                 </div>
             </div>
