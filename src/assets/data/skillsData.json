@@ -5,15 +5,19 @@
         { "skill": "SQL", "logo": "sql.png" },
         { "skill": "Java", "logo": "java.png" }
     ],
-    "Web Development": [
+    "Full Stack Development": [
         { "skill": "NodeJS", "logo": "node.png" },
         { "skill": "ReactJS", "logo": "react.png" },
         { "skill": "HTML", "logo": "html5.png" },
         { "skill": "CSS", "logo": "css3.png" },
-        { "skill": "D3.js", "logo": "d3.png" }
+        { "skill": "D3.js", "logo": "d3.png" },
+        { "skill": "Flask", "logo": "d3.png" },
+        { "skill": "FastAPI", "logo": "d3.png" },
+        { "skill": "Streamlit", "logo": "d3.png" }
     ],
     "Database": [
         { "skill": "MySQL", "logo": "mysql.png" },
+        { "skill": "MS SQL", "logo": "mysql.png" },
         { "skill": "VerticaDB", "logo": "vertica.png" },
         { "skill": "MongoDB", "logo": "mongodb.png" },
         { "skill": "Firebase", "logo": "firebase.png" }
