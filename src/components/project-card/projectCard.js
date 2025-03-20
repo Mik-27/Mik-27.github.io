@@ -1,5 +1,4 @@
 import "./projectCard.css";
-// import netflixImg from "../../assets/projects/netflix.jpg";
 
 export default function ProjectCard({
     title,

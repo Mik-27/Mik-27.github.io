@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
 
 .exp-main {
     font-family: 'Roboto', sans-serif;
@@ -10,7 +9,7 @@
 }
 
 .exp-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', monospace;
     text-align: center;
     margin-bottom: 70px;
     margin-top: 30px;
