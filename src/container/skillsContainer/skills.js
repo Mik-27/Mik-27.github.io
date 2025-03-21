@@ -1,4 +1,3 @@
-// import skillsData from "../../skills.json";
 import SkillCard from "../../components/skill-card/skillCard";
 import "./skills.css";
 import skillsData from "../../assets/data/skillsData.json";
