@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c876d976.css",
-    "main.js": "/static/js/main.44fa9c09.js",
+    "main.css": "/static/css/main.0f2f27d4.css",
+    "main.js": "/static/js/main.5b777efc.js",
     "static/media/yelpcamp.jpg": "/static/media/yelpcamp.a1c147670444996528b8.jpg",
     "static/media/rpm.jpg": "/static/media/rpm.aeeb91f82d1ee02a8e1d.jpg",
     "static/media/skillsbg.jpg": "/static/media/skillsbg.74f7ff06458eda1b5269.jpg",
     "static/media/PDP.jpg": "/static/media/PDP.4da33e4e74364f7f6830.jpg",
     "static/media/netflix.jpg": "/static/media/netflix.2f29c967633bbd12771b.jpg",
     "static/media/robot.jpg": "/static/media/robot.b64170469c082e83ac11.jpg",
+    "static/media/voice.jpg": "/static/media/voice.774c9858136fd873c57a.jpg",
     "static/media/chest.jpg": "/static/media/chest.aaae8fa87e0c4f7a79cb.jpg",
     "static/media/profilePic.JPG": "/static/media/profilePic.f32fa518901d66bce438.JPG",
     "static/media/linux.png": "/static/media/linux.799257f3d947746a9ff8.png",
     "static/media/laptopbg.jpg": "/static/media/laptopbg.41d84077baf30bc52332.jpg",
     "static/media/rag.png": "/static/media/rag.cec4097d32f364d2f7aa.png",
+    "static/media/Resume.pdf": "/static/media/Resume.0430ad347bde1afa99d1.pdf",
     "static/media/asl.png": "/static/media/asl.dc5bf7eacfe5e16e4dc3.png",
     "static/media/traffic.jpg": "/static/media/traffic.8035535640385852a522.jpg",
     "static/media/sales.jpg": "/static/media/sales.8aeef3de4c8e70ff81f6.jpg",
@@ -22,7 +24,7 @@
     "static/media/animal.jpg": "/static/media/animal.c51352accacbea696a17.jpg",
     "static/media/vertica.png": "/static/media/vertica.2afcf08aad19cca1bbb1.png",
     "static/media/azure.png": "/static/media/azure.74fd3c74f03fde6a94af.png",
-    "static/media/Resume.pdf": "/static/media/Resume.e9b5a7a93a139a13dbc4.pdf",
+    "static/media/jobs-assistant.jpg": "/static/media/jobs-assistant.6e47f125168e1e064a94.jpg",
     "static/media/mysql.png": "/static/media/mysql.1bd161a431c6eb4b6e0a.png",
     "static/media/spark.png": "/static/media/spark.8d9fcbe09f37148b5159.png",
     "static/media/numpy.png": "/static/media/numpy.30558498bbc115554b6e.png",
@@ -37,6 +39,7 @@
     "static/media/css3.png": "/static/media/css3.bb6c531e7151246fcfdc.png",
     "static/media/mongodb.png": "/static/media/mongodb.62f6b1e4375f36d6eb26.png",
     "static/media/pytorch.png": "/static/media/pytorch.e233fc48a48fde996610.png",
+    "static/media/vloan.jpg": "/static/media/vloan.68cfb2063f54bda8e69d.jpg",
     "static/media/node.png": "/static/media/node.9fea1c7da2bd42ab93bf.png",
     "static/media/d3.png": "/static/media/d3.0e0a7c55c8b6b1070b7e.png",
     "static/media/xgboost.png": "/static/media/xgboost.71cfb5217671c0aea05e.png",
@@ -44,16 +47,17 @@
     "static/media/streamlit.png": "/static/media/streamlit.0b0672061c55999d15ca.png",
     "static/media/flask.png": "/static/media/flask.b11d9ebcbbe759f43089.png",
     "static/media/seaborn.png": "/static/media/seaborn.f72634a028dcfdb43220.png",
+    "static/media/stealth.jpg": "/static/media/stealth.fc5abd8089ecfc3702fb.jpg",
     "static/media/matplotlib.png": "/static/media/matplotlib.fecb899a6034ff72b308.png",
     "static/media/github.png": "/static/media/github.c8007a9fb185cb152ee6.png",
     "static/media/java.png": "/static/media/java.6c64373d3b7415758078.png",
     "static/media/gemini.jpg": "/static/media/gemini.8d44fd3a769c08bdfc2d.jpg",
     "index.html": "/index.html",
-    "main.c876d976.css.map": "/static/css/main.c876d976.css.map",
-    "main.44fa9c09.js.map": "/static/js/main.44fa9c09.js.map"
+    "main.0f2f27d4.css.map": "/static/css/main.0f2f27d4.css.map",
+    "main.5b777efc.js.map": "/static/js/main.5b777efc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c876d976.css",
-    "static/js/main.44fa9c09.js"
+    "static/css/main.0f2f27d4.css",
+    "static/js/main.5b777efc.js"
   ]
 }
