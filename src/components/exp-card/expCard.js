@@ -25,12 +25,18 @@ export default function ExpCard({
                         return <li>{d + "."}</li>;
                     })}
                 </ul>
-                <div className="website-container">
-                    <span>→</span>
-                    <a href={website} rel="noopener noreferrer" target="_blank">
-                        View Website
-                    </a>
-                </div>
+                {website && (
+                    <div className="website-container">
+                        <span>→</span>
+                        <a
+                            href={website}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            View Website
+                        </a>
+                    </div>
+                )}
             </div>
         </div>
     );

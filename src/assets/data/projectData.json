@@ -2,6 +2,38 @@
     "projects": [
         {
             "projectId": 1,
+            "title": "Jobs Assistant",
+            "onGithub": false,
+            "link": "",
+            "image": "jobs-assistant.jpg",
+            "desc": "AI-powered job application assistant that streamlines the job search process by automating resume tailoring, cover letter generation, and interview preparation. Utilized LangChain to build AI-based features that interact with job descriptions and user profiles to create customized application materials. Utilized GCP PubSub and Cloud Functions to build scalable and event-driven architecture, ensuring efficient processing of user requests for cold email outreach."
+        },
+        {
+            "projectId": 2,
+            "title": "Vehicle Loan Sales Prediction (LTIMindtree)",
+            "onGithub": false,
+            "link": "",
+            "image": "vloan.jpg",
+            "desc": "Developed and deployed end-to-end PySpark-based ML solution in Azure Databricks for identifying potential commercial vehicle loan sales leads, integrating 10 enterprise data tables, with recall of 0.89 on XGBoost model. Carried out extensive data preprocessing, feature engineering, and hyperparameter tuning to optimize model performance."
+        },
+        {
+            "projectId": 3,
+            "title": "Voice Analytics (LTIMindtree)",
+            "onGithub": false,
+            "link": "",
+            "image": "voice.jpg",
+            "desc": "Designed and automated end-to-end ETL workflow using Azure Data Factory for ingesting, transforming, and storing structured (VerticaDB) and unstructured (audio) data into a centralized Azure SQL database. Facilitated transcription of audio data from native Indian Languages to English using Azure Cognitive Services. Led to improvement in transcription accuracy by 15% and robust ETL pipeline."
+        },
+        {
+            "projectId": 4,
+            "title": "PolicyRAG",
+            "onGithub": false,
+            "link": "",
+            "image": "rag.png",
+            "desc": "Designed a Retreval Augmented Generation model for policy documents. Utilized web scraper using Selenium to gather policy documents from college website and performed proprocessing by converting PDF to text and chunking the text. Passed these chunks to LLM embedding model producing text embeddings for similarity search qith the user query. Produced context aware responses to user queries and reduced customer support workload by estimated 30%."
+        },
+        {
+            "projectId": 5,
             "title": "Remote Patient Monitoring",
             "onGithub": false,
             "link": "",
@@ -9,7 +41,7 @@
             "desc": "Patient Montoring with the help of IoT and Cloud to efficiently keep track of patient conditions. Used sensors and microcontroller to gather vitals' information of patient and store it in the cloud. Use this information to perform analytics and predict lung disease from ECG. User can access this information through web portal via login. Efficint tracking of patient condition during COVID times."
         },
         {
-            "projectId": 2,
+            "projectId": 6,
             "title": "Benchmarking and Fairness Estimation on Biomedical Imagery",
             "onGithub": false,
             "link": "",
@@ -17,7 +49,7 @@
             "desc": "Comparative study between state-of-the-art Vision transformer algorithms and self supervised algorithm. Used ViT, Swin V1, ConvNeXt along with REMEDIS self-supervised algorithm for chest X-ray classification. Performed OOD detection using dataset from China(shenzhen) and gender bias analysis between all the mentioned algorithms."
         },
         {
-            "projectId": 3,
+            "projectId": 7,
             "title": "Language and Robotics",
             "onGithub": false,
             "link": "",
@@ -25,15 +57,15 @@
             "desc": "Predict next action for a robot given previous actions and image features as well as summarize robot actions. Use natural language along with image features using CLIP transformer model to generate next instructions. Used GPT2 model to generate summarization of robot actions."
         },
         {
-            "projectId": 4,
-            "title": "Resume Analyzer",
+            "projectId": 8,
+            "title": "Resume Optimizer",
             "onGithub": false,
             "link": "",
             "image": "gemini.jpg",
-            "desc": "Employed LLM agents for tailoring resume using LangGraph and Gemini 2.0. Used feedback loop to improve the resume relevancy score based on job description. Containerized the application using Docker and deployed with the help of Kubernetes. Ensured scalable and robust deployment setup."
+            "desc": "Employed AI agents for tailoring resume using LangGraph and Gemini 2.0. Used feedback loop to improve the resume relevancy score based on job description. Containerized the application using Docker and deployed with the help of Kubernetes. Ensured scalable and robust deployment setup."
         },
         {
-            "projectId": 5,
+            "projectId": 9,
             "title": "Walmart Sales Forcasting",
             "onGithub": false,
             "link": "",
@@ -41,15 +73,7 @@
             "desc": "Analyzed sales and product data across 3 regions across multiple categories. Used ARIMA, LSTM, SARIMAX and Prophet models to forecast sales for next 6 months. Performed feature engineering and data preprocessing to build robust models and increase accuracy by 12% from baseline."
         },
         {
-            "projectId": 6,
-            "title": "PolicyRAG",
-            "onGithub": false,
-            "link": "",
-            "image": "rag.png",
-            "desc": "Designed a Retreval Augmented Generation model for policy documents. Utilized web scraper using Selenium to gather policy documents from college website and performed proprocessing by converting PDF to text and chunking the text. Paased these chunks to LLM embedding model producing text embeddings for similarity search qith the user query. Produced context aware responses to user queries and reduced customer support workload by estimated 30%."
-        },
-        {
-            "projectId": 7,
+            "projectId": 10,
             "title": "American Sign Language Detection",
             "onGithub": false,
             "link": "",
@@ -57,7 +81,7 @@
             "desc": "Sign language is the primary mode of communication for deaf people and and people with hearing disabilities. Common people are not aware of the sign language and its interpretation to spoken language like English. To tackle this shortcoming, we developed ASL Detection for letters as well as words using images and videos using YOLOv5 and I3D respectively."
         },
         {
-            "projectId": 8,
+            "projectId": 11,
             "title": "YelpCamp",
             "onGithub": true,
             "link": "https://github.com/Mik-27/Yelp_Camp",
@@ -65,7 +89,7 @@
             "desc": "Web application developed with Node JS, Bootstrap and HTML/CSS for browsing campgrounds and leave comments. Developed user login functionality and authentication for urls. Used MongoDB as storage to store users, user comments and campgrounds."
         },
         {
-            "projectId": 9,
+            "projectId": 12,
             "title": "Plant Disease Prediction",
             "onGithub": false,
             "link": "",
@@ -73,7 +97,7 @@
             "desc": "Predicting plant diseases and anamolies based on images of leaves. Generating prediction for the type of diseases using Convolutional Neural Network. Performed data augmentations to build robust model and facilitate accurate predictions."
         },
         {
-            "projectId": 10,
+            "projectId": 13,
             "title": "Traffic Management System",
             "onGithub": true,
             "link": "https://github.com/Mik-27/VH-21-31-Supernovas",
@@ -81,7 +105,7 @@
             "desc": "System to manage Traffic efficiently using Machine Learning and signaling algorithm. Used YOLOv3 model to detect vehicles crossing a node. Count number of vehicles to estimate traffic at each node and use this information for changing the signals and their duration. Developed algorithm to change signals based on traffic at each intersection. Developed as part of  a 2-day Hackathon."
         },
         {
-            "projectId": 11,
+            "projectId": 14,
             "title": "BeastWatch",
             "onGithub": false,
             "link": "",

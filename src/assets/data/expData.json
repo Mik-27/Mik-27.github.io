@@ -1,13 +1,23 @@
 {
     "exp": [
         {
+            "company": "Ascend",
+            "logo": "stealth.jpg",
+            "startDate": "June, 2025",
+            "endDate": "October, 2025",
+            "jobTitle": "AI Full Stack Engineer",
+            "location": "Remote, US",
+            "desc": "Developed AI Agent tools from concept to deployment in startup environment, building 10 core tools using LangChain and PostgreSQL to establish the product's foundational capabilities. Engineered full-stack document retrieval features using Next JS, React and OpenAI Vector DB, delivering seamless user experience with 6-second context retrieval for AI Agent. Optimized asynchronous inference workflows using Temporal for AI functionality, reducing P95 latency by 200ms. Designed AI evaluation framework in Playwright with MCP for testing agent tool calling and optimized AI system, improving tool calling accuracy by 25%.",
+            "website": ""
+        },
+        {
             "company": "LTIMindtree",
             "logo": "LTIMindtree.jpg",
             "startDate": "June, 2022",
             "endDate": "July, 2023",
-            "jobTitle": "Data Scientist",
+            "jobTitle": "Data Scientist/Data Engineer",
             "location": "Pune, India",
-            "desc": "Implemented data science use cases for one of the top private banks in India, leveraging data-driven insights to drive business decisions. Performed data wrangling and exploratory data analysis on large datasets comprising 100M records from multiple datasets, and trained tree-based machine learning models to predict commercial vehicle sales. Presented two use-case POCs to stakeholders. Built end-to-end machine learning pipeline in Databricks, facilitating scheduled batch predictions. Redesigned approach for predicting delinquent customers to achieve accuracy of 89%.",
+            "desc": "Implemented 3 data science solutions using Pandas, PySpark, Scikit-learn and SQL in Databricks, articulating problems into data-driven insights through statistical analysis for business decision-making. Developed scalable ETL pipelines on Spark processing terabytes of data and trained tree-based models (XGBoost/LGBM) models to segment customers for targeted marketing, leading to estimated $1M impact on boosting revenue. Identified and optimized SQL queries using SparkSQL ensuring data quality and validity, reducing runtime by 20%. Innovated data-driven approach to classify delinquent loan customers for risk-based loan recovery by building end-to-end machine learning workflows, employing MLflow for ML lifecycle management, and improving recall by relative 10%. Benchmarked and evaluated new delinquency prediction model against the production baseline in controlled A/B test, reducing false negatives by 9% and delivering $1,5M reduction in credit losses. Engineered customer segmentation, utilizing hybrid approach of BERT and rules, decreasing operational costs by 10%.Communicated model results and data-driven recommendations to business stakeholders and leadership through presentations and PowerBI dashboards, influencing business strategies and informing key decisions. Managed end-to-end lifecycle of over 15 ML solutions by collaborating with cross-functional teams, including deployment to Azure, maintenance, and troubleshooting of solution in production to ensure high availability and performance.",
             "website": "https://www.ltimindtree.com/"
         },
         {

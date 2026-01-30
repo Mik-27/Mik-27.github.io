@@ -25,7 +25,7 @@
 
 .card-contents {
     font-size: 1.3em;
-    width: 500px;
+    width: 700px;
 }
 
 .card-contents > h2 {
@@ -67,37 +67,3 @@
 .website-container > a:hover::after {
     transform: scaleX(1);
 }
-
-/* .card-contents > ul {
-    text-align: justify;
-} */
-
-/* .card-contents > .duration {
-    font-size: 1.1em;
-}
-
-.card-contents > .designation {
-    color: #3aafa9;
-}
-
-ul.details {
-    list-style-type: none;
-    text-decoration: none;
-    padding: 0;
-}
-
-ul.details > li {
-    padding-bottom: 15px;
-    padding-top: 15px;
-    border-top: 1px solid rgba(0, 0, 0, 0.281);
-}
-
-ul.details > li > a {
-    text-decoration: none;
-    color: black;
-}
-
-ul.details > li > a:hover {
-    border-bottom: 1.5px solid rgba(0, 0, 0, 0.356);
-    color: rgba(0, 0, 0, 0.637);
-} */

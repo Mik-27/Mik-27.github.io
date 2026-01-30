@@ -18,17 +18,6 @@ export default function Navbar() {
         }
     };
 
-    // const handleNavDropdown = () => {
-    // 	var nav = document.querySelector(".navbar-links");
-    // 	console.log(nav);
-    // 	if (nav === ".navbar-links") {
-    // 		nav.classList.add("responsive");
-    // 	} else {
-    // 		nav.classList.remove("responsive");
-    // 	}
-    // 	console.log(nav);
-    // };
-
     useEffect(() => {
         window.addEventListener("scroll", handleScroll, { passive: true });
         return () => {
@@ -74,15 +63,6 @@ export default function Navbar() {
                             ABOUT
                         </Link>
                         <Link
-                            to="skills"
-                            spy={true}
-                            smooth={true}
-                            activeClass="active"
-                            offset={-50}
-                        >
-                            SKILLS
-                        </Link>
-                        <Link
                             to="projects"
                             spy={true}
                             smooth={true}
@@ -98,6 +78,15 @@ export default function Navbar() {
                             offset={-100}
                         >
                             EXPERIENCE
+                        </Link>
+                        <Link
+                            to="skills"
+                            spy={true}
+                            smooth={true}
+                            activeClass="active"
+                            offset={-50}
+                        >
+                            SKILLS
                         </Link>
                     </ul>
                     <a

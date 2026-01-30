@@ -18,8 +18,10 @@ export default function Skills() {
                                     return (
                                         <SkillCard
                                             skill={skill.skill}
-                                            logo={require("../../assets/skills/" +
-                                                skill.logo)}
+                                            logo={require(
+                                                "../../assets/skills/" +
+                                                    skill.logo,
+                                            )}
                                         />
                                     );
                                 })}

@@ -7,21 +7,6 @@ import bgImg from "../assets/laptopbg.jpg";
 import resume from "../assets/Resume.pdf";
 
 export default function Home() {
-    // const [slide, setSlide] = useState(false);
-
-    // const slideIn = () => {
-    // 	if (window.scrollY >= 450) {
-    // 		setSlide(true);
-    // 	}
-    // };
-
-    // useEffect(() => {
-    // 	window.addEventListener("scroll", slideIn, { passive: true });
-    // 	return () => {
-    // 		window.removeEventListener("scroll", slideIn, { passive: true });
-    // 	};
-    // }, []);
-
     return (
         <div className="home-main">
             <div className="home-bg-container">
@@ -43,9 +28,7 @@ export default function Home() {
                             options={{
                                 strings: [
                                     "I articulate data science solutions.",
-                                    "I build LLM Agents.",
-                                    "I orchestrate microservices delpoyment.",
-                                    "I build LLM application.",
+                                    "I build AI Agents.",
                                     "I develop software applications.",
                                 ],
                                 autoStart: true,
@@ -62,41 +45,30 @@ export default function Home() {
             </div>
             <section id="about" className="home-container">
                 <div className="info">
-                    <div
-                        // className={
-                        // 	slide ? "image-container" : "image-container slide-right"
-                        // }
-                        className="image-container"
-                    >
+                    <div className="image-container">
                         <div className="image">
-                            {/* <img
-                                src="../assets/selfpic.JPG"
-                                alt="Profile Pic"
-                            /> */}
                             <div className="overlay"></div>
                         </div>
                     </div>
-                    <div
-                        // className={slide ? "intro" : "slide-left intro"}
-                        className="intro"
-                    >
+                    <div className="intro">
                         <h1>ABOUT ME</h1>
                         <p>
                             I'm highly motivated and enthusiastic student,
                             currently pursuing my Masters of Science in Computer
-                            Science Arizona State Univeristy. I have 1 year of
-                            work experience as a Data Scientist where I
+                            Science at Arizona State University. I have 1 year
+                            of work experience as a Data Scientist where I
                             leveraged data driven insights to drive business
-                            decisions. My primary interests are in Artificial
-                            Intelligence building efficient models as well as
-                            development of robust cloud infrastructure.
+                            decisions and built end-to-end ML workflows. My
+                            primary interests are in Data Science and GenAI,
+                            building impactful solutions that aim to solve
+                            real-world problems.
                             <br />
-                            <br />I have worked on finance related use cases as
-                            a Data Scientist. Apart from my professional
-                            experiences, I have also developed various academic
-                            projects employing state-of-the-art algorithms. I
-                            also like exploring technologies to augment my
-                            knowledge and build innovative projects.
+                            <br />
+                            Apart from my professional experiences, I have also
+                            developed various academic projects employing
+                            state-of-the-art algorithms. I also like exploring
+                            technologies to augment my knowledge. I am actively
+                            seeking for opportunities to fail, learn and grow.
                         </p>
                         <a
                             href={resume}
@@ -108,6 +80,12 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
+            </section>
+            <section id="projects" className="projects-container">
+                <Projects />
+            </section>
+            <section id="exp" className="experience-container">
+                <Experience />
             </section>
             <section id="skills" className="skill-container">
                 <Skills />
@@ -123,12 +101,6 @@ export default function Home() {
                         </a>
                     </p>
                 </div>
-            </section>
-            <section id="projects" className="projects-container">
-                <Projects />
-            </section>
-            <section id="exp" className="experience-container">
-                <Experience />
             </section>
         </div>
     );
