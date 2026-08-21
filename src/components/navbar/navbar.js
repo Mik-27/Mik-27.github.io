@@ -56,7 +56,7 @@ export default function Navbar() {
                         <Link
                             to="about"
                             spy={true}
-                            smooth={true}
+                            smooth={false}
                             activeClass="active"
                             offset={-100}
                         >
@@ -65,7 +65,7 @@ export default function Navbar() {
                         <Link
                             to="projects"
                             spy={true}
-                            smooth={true}
+                            smooth={false}
                             activeClass="active"
                         >
                             PROJECTS
@@ -73,7 +73,7 @@ export default function Navbar() {
                         <Link
                             to="exp"
                             spy={true}
-                            smooth={true}
+                            smooth={false}
                             activeClass="active"
                             offset={-100}
                         >
@@ -82,7 +82,7 @@ export default function Navbar() {
                         <Link
                             to="skills"
                             spy={true}
-                            smooth={true}
+                            smooth={false}
                             activeClass="active"
                             offset={-50}
                         >

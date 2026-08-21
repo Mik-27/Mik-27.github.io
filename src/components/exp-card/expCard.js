@@ -12,7 +12,7 @@ export default function ExpCard({
     var desc_array = desc.split(".");
     desc_array.pop();
     return (
-        <div className="exp-card">
+        <div className="exp-card reveal">
             <div className="exp-image">
                 <img src={logo} alt={company} />
             </div>

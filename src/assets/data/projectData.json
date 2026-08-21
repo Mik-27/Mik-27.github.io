@@ -6,23 +6,8 @@
             "onGithub": false,
             "link": "",
             "image": "jobs-assistant.jpg",
-            "desc": "AI-powered job application assistant that streamlines the job search process by automating resume tailoring, cover letter generation, and interview preparation. Utilized LangChain to build AI-based features that interact with job descriptions and user profiles to create customized application materials. Utilized GCP PubSub and Cloud Functions to build scalable and event-driven architecture, ensuring efficient processing of user requests for cold email outreach."
-        },
-        {
-            "projectId": 2,
-            "title": "Vehicle Loan Sales Prediction (LTIMindtree)",
-            "onGithub": false,
-            "link": "",
-            "image": "vloan.jpg",
-            "desc": "Developed and deployed end-to-end PySpark-based ML solution in Azure Databricks for identifying potential commercial vehicle loan sales leads, integrating 10 enterprise data tables, with recall of 0.89 on XGBoost model. Carried out extensive data preprocessing, feature engineering, and hyperparameter tuning to optimize model performance."
-        },
-        {
-            "projectId": 3,
-            "title": "Voice Analytics (LTIMindtree)",
-            "onGithub": false,
-            "link": "",
-            "image": "voice.jpg",
-            "desc": "Designed and automated end-to-end ETL workflow using Azure Data Factory for ingesting, transforming, and storing structured (VerticaDB) and unstructured (audio) data into a centralized Azure SQL database. Facilitated transcription of audio data from native Indian Languages to English using Azure Cognitive Services. Led to improvement in transcription accuracy by 15% and robust ETL pipeline."
+            "desc": "AI-powered job application assistant that streamlines the job search process by automating resume tailoring, cover letter generation, and interview preparation. Utilized LangChain to build AI-based features that interact with job descriptions and user profiles to create customized application materials. Utilized GCP PubSub and Cloud Functions to build scalable and event-driven architecture, ensuring efficient processing of user requests for cold email outreach.",
+            "tags": ["AI", "LangChain", "GCP", "PubSub", "Cloud Functions"]
         },
         {
             "projectId": 4,
@@ -30,7 +15,14 @@
             "onGithub": false,
             "link": "",
             "image": "rag.png",
-            "desc": "Designed a Retreval Augmented Generation model for policy documents. Utilized web scraper using Selenium to gather policy documents from college website and performed proprocessing by converting PDF to text and chunking the text. Passed these chunks to LLM embedding model producing text embeddings for similarity search qith the user query. Produced context aware responses to user queries and reduced customer support workload by estimated 30%."
+            "desc": "Designed a Retreval Augmented Generation model for policy documents. Utilized web scraper using Selenium to gather policy documents from college website and performed proprocessing by converting PDF to text and chunking the text. Passed these chunks to LLM embedding model producing text embeddings for similarity search qith the user query. Produced context aware responses to user queries and reduced customer support workload by estimated 30%.",
+            "tags": [
+                "RAG",
+                "BGE-Large",
+                "Selenium",
+                "ElasticSearch",
+                "Web Scraping"
+            ]
         },
         {
             "projectId": 5,
@@ -38,7 +30,8 @@
             "onGithub": false,
             "link": "",
             "image": "rpm.jpg",
-            "desc": "Patient Montoring with the help of IoT and Cloud to efficiently keep track of patient conditions. Used sensors and microcontroller to gather vitals' information of patient and store it in the cloud. Use this information to perform analytics and predict lung disease from ECG. User can access this information through web portal via login. Efficint tracking of patient condition during COVID times."
+            "desc": "Patient Montoring with the help of IoT and Cloud to efficiently keep track of patient conditions. Used sensors and microcontroller to gather vitals' information of patient and store it in the cloud. Use this information to perform analytics and predict lung disease from ECG. User can access this information through web portal via login. Efficint tracking of patient condition during COVID times.",
+            "tags": ["IoT", "Arduino", "Cloud", "ECG", "Analytics"]
         },
         {
             "projectId": 6,
@@ -46,7 +39,14 @@
             "onGithub": false,
             "link": "",
             "image": "chest.jpg",
-            "desc": "Comparative study between state-of-the-art Vision transformer algorithms and self supervised algorithm. Used ViT, Swin V1, ConvNeXt along with REMEDIS self-supervised algorithm for chest X-ray classification. Performed OOD detection using dataset from China(shenzhen) and gender bias analysis between all the mentioned algorithms."
+            "desc": "Comparative study between state-of-the-art Vision transformer algorithms and self supervised algorithm. Used ViT, Swin V1, ConvNeXt along with REMEDIS self-supervised algorithm for chest X-ray classification. Performed OOD detection using dataset from China(shenzhen) and gender bias analysis between all the mentioned algorithms.",
+            "tags": [
+                "Vision Transformer",
+                "PyTorch",
+                "Chest X-ray Classification",
+                "OOD Detection",
+                "Fairness"
+            ]
         },
         {
             "projectId": 7,
@@ -54,7 +54,8 @@
             "onGithub": false,
             "link": "",
             "image": "robot.jpg",
-            "desc": "Predict next action for a robot given previous actions and image features as well as summarize robot actions. Use natural language along with image features using CLIP transformer model to generate next instructions. Used GPT2 model to generate summarization of robot actions."
+            "desc": "Predict next action for a robot given previous actions and image features as well as summarize robot actions. Use natural language along with image features using CLIP transformer model to generate next instructions. Used GPT2 model to generate summarization of robot actions.",
+            "tags": ["CLIP", "GPT2", "PyTorch", "Robotics"]
         },
         {
             "projectId": 8,
@@ -62,7 +63,14 @@
             "onGithub": false,
             "link": "",
             "image": "gemini.jpg",
-            "desc": "Employed AI agents for tailoring resume using LangGraph and Gemini 2.0. Used feedback loop to improve the resume relevancy score based on job description. Containerized the application using Docker and deployed with the help of Kubernetes. Ensured scalable and robust deployment setup."
+            "desc": "Employed AI agents for tailoring resume using LangGraph and Gemini 2.0. Used feedback loop to improve the resume relevancy score based on job description. Containerized the application using Docker and deployed with the help of Kubernetes. Ensured scalable and robust deployment setup.",
+            "tags": [
+                "LangGraph",
+                "Gemini 2.0",
+                "Vertex AI",
+                "Docker",
+                "Kubernetes"
+            ]
         },
         {
             "projectId": 9,
@@ -70,7 +78,14 @@
             "onGithub": false,
             "link": "",
             "image": "sales.jpg",
-            "desc": "Analyzed sales and product data across 3 regions across multiple categories. Used ARIMA, LSTM, SARIMAX and Prophet models to forecast sales for next 6 months. Performed feature engineering and data preprocessing to build robust models and increase accuracy by 12% from baseline."
+            "desc": "Analyzed sales and product data across 3 regions across multiple categories. Used ARIMA, LSTM, SARIMAX and Prophet models to forecast sales for next 6 months. Performed feature engineering and data preprocessing to build robust models and increase accuracy by 12% from baseline.",
+            "tags": [
+                "Sales Forecasting",
+                "Seaborn",
+                "Plotly",
+                "ARIMA",
+                "Prophet"
+            ]
         },
         {
             "projectId": 10,
@@ -78,7 +93,8 @@
             "onGithub": false,
             "link": "",
             "image": "asl.png",
-            "desc": "Sign language is the primary mode of communication for deaf people and and people with hearing disabilities. Common people are not aware of the sign language and its interpretation to spoken language like English. To tackle this shortcoming, we developed ASL Detection for letters as well as words using images and videos using YOLOv5 and I3D respectively."
+            "desc": "Sign language is the primary mode of communication for deaf people and people with hearing disabilities. Common people are not aware of the sign language and its interpretation to spoken language like English. To tackle this shortcoming, we developed ASL Detection for letters as well as words using images and videos using YOLOv5 and I3D respectively.",
+            "tags": ["PyTorch", "YOLOv5", "I3D", "Computer Vision"]
         },
         {
             "projectId": 11,
@@ -94,7 +110,8 @@
             "onGithub": false,
             "link": "",
             "image": "PDP.jpg",
-            "desc": "Predicting plant diseases and anamolies based on images of leaves. Generating prediction for the type of diseases using Convolutional Neural Network. Performed data augmentations to build robust model and facilitate accurate predictions."
+            "desc": "Predicting plant diseases and anamolies based on images of leaves. Generating prediction for the type of diseases using Convolutional Neural Network. Performed data augmentations to build robust model and facilitate accurate predictions.",
+            "tags": ["CNN", "PyTorch", "Computer Vision", "Data Augmentation"]
         },
         {
             "projectId": 13,
@@ -102,7 +119,13 @@
             "onGithub": true,
             "link": "https://github.com/Mik-27/VH-21-31-Supernovas",
             "image": "traffic.jpg",
-            "desc": "System to manage Traffic efficiently using Machine Learning and signaling algorithm. Used YOLOv3 model to detect vehicles crossing a node. Count number of vehicles to estimate traffic at each node and use this information for changing the signals and their duration. Developed algorithm to change signals based on traffic at each intersection. Developed as part of  a 2-day Hackathon."
+            "desc": "System to manage Traffic efficiently using Machine Learning and signaling algorithm. Used YOLOv3 model to detect vehicles crossing a node. Count number of vehicles to estimate traffic at each node and use this information for changing the signals and their duration. Developed algorithm to change signals based on traffic at each intersection. Developed as part of  a 2-day Hackathon.",
+            "tags": [
+                "YOLOv3",
+                "Computer Vision",
+                "Traffic Management",
+                "Hackathon"
+            ]
         },
         {
             "projectId": 14,
@@ -110,7 +133,8 @@
             "onGithub": false,
             "link": "",
             "image": "animal.jpg",
-            "desc": "Designed plan for developing a CCTV camera based application for monitoring and tracking animals in forest. Used YOLOv9 model to detect animals and track them with an aim to reduce wild attacks and general tracking of wild animals. Used OpenCV for tracking and monitoring animals. Developed as part of a 5-hour ideation hackathon."
+            "desc": "Designed plan for developing a CCTV camera based application for monitoring and tracking animals in forest. Used YOLOv9 model to detect animals and track them with an aim to reduce wild attacks and general tracking of wild animals. Used OpenCV for tracking and monitoring animals. Developed as part of a 5-hour ideation hackathon.",
+            "tags": ["YOLOv9", "OpenCV", "Computer Vision", "Hackathon"]
         }
     ]
 }

@@ -12,12 +12,14 @@ export default function Projects() {
                 {preojectData.projects.map((obj) => {
                     return (
                         <ProjectCard
-                            image={require("../../assets/projects/" +
-                                obj.image)}
+                            image={require(
+                                "../../assets/projects/" + obj.image,
+                            )}
                             title={obj.title}
                             link={obj.link}
                             onGithub={obj.onGithub}
                             desc={obj.desc}
+                            tags={obj.tags}
                             key={obj.projectId}
                             projectId={obj.projectId}
                         />

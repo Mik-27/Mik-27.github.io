@@ -1,69 +1,14 @@
-.exp-card {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-image: linear-gradient(to right, rgb(10, 83, 78), rgba(10, 83, 78, 0));
-    border-radius: 30px;
-    color: #f9faff;
-    margin: 50px 0;
-    margin-left: 50px;
-    cursor: default;
-    padding-bottom: 20px;
-}
-
-.exp-image{
-    display: flex;
-    align-items: center;
-}
-
-.exp-image img{
-    height: auto;
-    width: 300px;
-    object-fit:contain;
-    border-radius: 5px;
-}
-
-.card-contents {
-    font-size: 1.3em;
-    width: 700px;
-}
-
-.card-contents > h2 {
-    color: #3aafa9;
-}
-
-.website-container {
-    display: flex;
-    font-size: 0.8em;
-    margin-left: 15px;
-}
-
-.website-container > a {
-    display: block;
-    color: #f9faff;
-    width:fit-content;
-    margin-left: 10px;
-    background-color: transparent;
-    cursor: pointer;
-    transition: 0.2s ease;
-    text-decoration: none;
-}
-
-.website-container > a:hover {
-    /* transform: scale(1.05); */
-    font-weight: 500;
-    color: #f0f0f0;
-}
-
-.website-container > a::after {
-    margin-top: 5px;
-    display:block;
-    content: '';
-    border-bottom: solid 2px #def2f1;
-    transform: scaleX(0);  
-    transition: transform 250ms ease-in-out;
-}
-
-.website-container > a:hover::after {
-    transform: scaleX(1);
-}
+.exp-card { display: grid; grid-template-columns: 190px 1fr; gap: 55px; align-items: start; margin: 0 0 55px; padding: 0 0 55px; border-bottom: 1px solid var(--line); color: var(--ink); }
+.exp-image { display: flex; align-items: center; justify-content: center; height: 140px; background: var(--paper-deep); }
+.exp-image img { max-height: 100px; max-width: 150px; object-fit: contain; border-radius: 2px; }
+.card-contents { font-size: 1rem; max-width: 760px; }
+.card-contents > h2 { color: var(--ink); font-family: 'Fraunces', serif; font-size: 2rem; margin: 0 0 5px; }
+.card-contents > h3 { color: var(--accent-dark); margin: 0 0 7px; }
+.card-contents > p { color: var(--muted); margin: 0 0 18px; }
+.card-contents li { color: var(--muted); line-height: 1.6; margin-bottom: 8px; }
+.website-container { margin-left: 15px; font-size: .9rem; }
+.website-container > a { color: var(--ink); margin-left: 10px; cursor: pointer; text-decoration: none; font-weight: 700; }
+.website-container > a:hover { color: var(--accent-dark); }
+.exp-card.reveal { transform: translateX(42px); }
+.exp-card.reveal.is-visible { transform: translateX(0); }
+@media (max-width: 650px) { .exp-card { grid-template-columns: 1fr; gap: 25px; } .exp-image { width: 150px; } }

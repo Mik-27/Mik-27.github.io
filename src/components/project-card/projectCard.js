@@ -6,17 +6,11 @@ export default function ProjectCard({
     link,
     onGithub,
     desc,
+    tags,
     projectId,
 }) {
     return (
-        <div
-            className="project-card"
-            style={
-                projectId % 2
-                    ? { flexDirection: "row" }
-                    : { flexDirection: "row-reverse" }
-            }
-        >
+        <div className="project-card reveal">
             <div className="project-heading">
                 <h1>{title}</h1>
                 <div className="project-desc">
@@ -37,6 +31,18 @@ export default function ProjectCard({
                 ) : (
                     ""
                 )}
+                {tags?.length ? (
+                    <div
+                        className="project-tags"
+                        aria-label="Technologies used"
+                    >
+                        {tags.map((tag) => (
+                            <span className="project-tag" key={tag}>
+                                {tag}
+                            </span>
+                        ))}
+                    </div>
+                ) : null}
             </div>
             <div className="project-img">
                 <img src={image} alt={title} />

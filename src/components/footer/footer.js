@@ -7,6 +7,7 @@ export default function Footer() {
                 <div className="footer-links">
                     <a
                         className="github-link"
+                        aria-label="GitHub profile"
                         href="https://github.com/Mik-27"
                         rel="noopener noreferrer"
                         target="_blank"
@@ -15,6 +16,7 @@ export default function Footer() {
                     </a>
                     <a
                         className="linkedin-link"
+                        aria-label="LinkedIn profile"
                         href="https://www.linkedin.com/in/mihir-thakur-116aa2208/"
                         rel="noopener noreferrer"
                         target="_blank"
@@ -23,6 +25,7 @@ export default function Footer() {
                     </a>
                     <a
                         className="kaggle-link"
+                        aria-label="Kaggle profile"
                         href="https://www.kaggle.com/mihir27"
                         rel="noopener noreferrer"
                         target="_blank"
@@ -35,12 +38,12 @@ export default function Footer() {
                     <a href="mailto: tmihir27@gmail.com">tmihir27@gmail.com</a>
                 </p>
 
-                <div className="footer-header">
+                {/* <div className="footer-header">
                     <br />
                     <h2>Mihir Thakur</h2>
-                </div>
+                </div> */}
                 <div className="footer-copyright">
-                    <p>Copyright © 2024 Mihir Thakur</p>
+                    <p>© 2026 All rights reserved</p>
                 </div>
             </div>
         </footer>
